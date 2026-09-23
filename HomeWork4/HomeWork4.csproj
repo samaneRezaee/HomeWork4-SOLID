@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Task7%28Store%29\Module\" />
-  </ItemGroup>
-
 </Project>
