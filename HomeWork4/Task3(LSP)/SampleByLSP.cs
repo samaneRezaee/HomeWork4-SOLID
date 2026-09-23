@@ -9,7 +9,7 @@ namespace HomeWork4.Task3_LSP_
     /// <summary>
     /// هر کلاسی میتواند آنچه را که مدعی آن است را انحام دهد
     /// </summary>
-    public class SampleBySLP
+    public class SampleByLSP
     {
         public interface IShape
         {
@@ -32,10 +32,10 @@ namespace HomeWork4.Task3_LSP_
         {
             Console.WriteLine(shape.Area());
         }
-        public static void Main(string[] args) 
-        {
-            PrintArea(new Rectangle { Width = 5, Height = 4 }); // 20
-            PrintArea(new Square { Side = 4 });                // 16
-        }
+        //public static void Main(string[] args) 
+        //{
+        //    PrintArea(new Rectangle { Width = 5, Height = 4 }); // 20
+        //    PrintArea(new Square { Side = 4 });                // 16
+        //}
     }
 }

@@ -44,10 +44,10 @@ namespace HomeWork4.Task3_LSP_
             Console.WriteLine(r.Area()); // اگر Square پاس بدهی، ۱۶ چاپ میشود
         }
 
-        public static void Main()
-        {
-            Test(new Rectangle()); // خروجی: 20 ✔
-            Test(new Square());    // خروجی: 16 ← نقض LSP
-        }
+        //public static void Main()
+        //{
+        //    Test(new Rectangle()); // خروجی: 20 ✔
+        //    Test(new Square());    // خروجی: 16 ← نقض LSP
+        //}
     }  
 }
