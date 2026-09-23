@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Task7%28Store%29\Implementations\" />
     <Folder Include="Task7%28Store%29\Module\" />
   </ItemGroup>
 
